@@ -25,6 +25,7 @@
   .member-card {
     text-align: center;
     width: 150px;
+    user-select: none;
   }
 
   .member-image {
