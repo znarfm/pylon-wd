@@ -154,42 +154,6 @@ section h2 {
   margin-bottom: 1.5rem;
 }
 
-/* Social Media Section */
-.social-links {
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
-  margin-top: 2rem;
-}
-
-.social-links a {
-  display: inline-block;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  background-color: #e71a30;
-  color: white;
-  text-align: center;
-  line-height: 40px;
-  transition: background-color 0.3s ease;
-}
-
-.social-links a:hover {
-  background-color: #c01528;
-}
-
-.email-contact {
-  text-align: center;
-  margin-top: 1rem;
-  color: #f0f0f0;
-}
-
-/* Add a subtle background to the entire page */
-body {
-  background-color: #121212;
-  color: #f0f0f0;
-}
-
 /* Enhance container styling */
 .container {
   padding: 2rem;
