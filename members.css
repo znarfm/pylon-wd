@@ -1,0 +1,80 @@
+.quick-nav {
+  padding: 1rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.quick-nav a {
+  margin: 0 1rem;
+  color: #e02b51;
+  text-decoration: none;
+}
+
+.team-section {
+  margin-bottom: 2rem;
+}
+
+.members-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.member-card {
+  text-align: center;
+  width: 150px;
+  user-select: none;
+}
+
+.member-image {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 0.5rem;
+  border: 3px solid #e02b51;
+}
+
+.member-name {
+  font-weight: bold;
+  margin: 0.5rem 0;
+}
+
+.member-role {
+  color: #646b79;
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+details {
+  background: #2c272a;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+}
+
+summary {
+  color: #e02b51;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+details[open] summary {
+  margin-bottom: 1rem;
+}
+
+details[open] .members-grid {
+  animation: slideDown 0.3s ease-out;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
