@@ -13,12 +13,12 @@
     
     .events-table td {
       padding: 1rem;
-      border-bottom: 1px solid #ddd;
+      border-bottom: 1px solid #000000;
       vertical-align: top;
     }
     
     .event-title {
-      color: #2c272a;
+      color: #e02b51;
       margin-top: 0;
     }
     
@@ -34,10 +34,10 @@
     }
     
     .event-registration {
-      background-color: #f8f9fa;
+      background-color: #252525;
       padding: 0.75rem;
       border-radius: 5px;
-      border-left: 4px solid #2c272a;
+      border-left: 4px solid #e02b51;
     }
     
     @media (max-width: 768px) {
