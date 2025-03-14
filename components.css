@@ -65,6 +65,10 @@ nav ul li a:hover {
   text-decoration: none;
 }
 
+section[id] {
+  scroll-margin-top: 150px;
+}
+
 main.container {
   padding-top: 150px;
   flex: 1;
