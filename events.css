@@ -1,0 +1,81 @@
+    .events-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 2rem 0;
+    }
+    
+    .events-table th {
+      background-color: #2c272a;
+      color: #FFF;
+      padding: 0.75rem;
+      text-align: center;
+    }
+    
+    .events-table td {
+      padding: 1rem;
+      border-bottom: 1px solid #ddd;
+      vertical-align: top;
+    }
+    
+    .event-title {
+      color: #2c272a;
+      margin-top: 0;
+    }
+    
+    .event-description {
+      margin-bottom: 0;
+    }
+    
+    .event-image {
+      max-width: 100%;
+      height: auto;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    
+    .event-registration {
+      background-color: #f8f9fa;
+      padding: 0.75rem;
+      border-radius: 5px;
+      border-left: 4px solid #2c272a;
+    }
+    
+    @media (max-width: 768px) {
+      nav ul {
+        flex-direction: column;
+        gap: 0.5rem;
+      }
+      
+      .events-table thead {
+        display: none;
+      }
+      
+      .events-table, .events-table tbody, .events-table tr, .events-table td {
+        display: block;
+        width: 100%;
+      }
+      
+      .events-table tr {
+        margin-bottom: 1rem;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        overflow: hidden;
+      }
+      
+      .events-table td {
+        border: none;
+        position: relative;
+        padding-left: 1rem;
+      }
+      
+      .events-table td:before {
+        font-weight: bold;
+        display: block;
+        margin-bottom: 0.5rem;
+      }
+
+      .events-table td:nth-of-type(1):before { content: "Event"; }
+      .events-table td:nth-of-type(2):before { content: "Description"; }
+      .events-table td:nth-of-type(3):before { content: "Image"; }
+      .events-table td:nth-of-type(4):before { content: "Registration"; }
+    }
